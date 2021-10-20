@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 10vh;
+    background: url("assets/airplane.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    font-size: 20px;
+    
+    
+
+}
+
+
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .logo_box {
+        background-image: url("https://tsflights-images.firebaseapp.com/TsFlightsHorizLogo.jpg");
+        height: 80px;
+        width: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px 20px;
+        align-self: flex-start;
+    }
+
+    .link_box {
+        height: 80px;
+        margin: 10px;
+        align-self: flex-end;
+        border: 1px dotted grey;
+    }
+
+
+}
+
+div {
+    text-decoration-color: black;
+    font-size: 20px;
+   
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
